@@ -1,0 +1,4 @@
+Entering Function :com.dave.activeproject.core.ActiveProjectManager-initActiveProject
+Exiting Function :com.dave.activeproject.core.ActiveProjectManager-initActiveProject
+Entering Function :com.dave.activeproblems.ui.ActiveProjProblemsView-init
+Exiting Function :com.dave.activeproblems.ui.ActiveProjProblemsView-init

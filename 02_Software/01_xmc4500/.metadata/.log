@@ -1,0 +1,149 @@
+!SESSION 2015-10-29 13:34:20.958 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.registry 2 0 2015-10-29 13:34:28.155
+!MESSAGE The extensions and extension-points from the bundle "gnu.io.rxtx.source" are ignored. The bundle is not marked as singleton. 
+
+!ENTRY org.eclipse.ui 4 4 2015-10-29 13:36:17.461
+!MESSAGE Plug-in 'com.ifx.davex.perspective' contributed an invalid Menu Extension (Path: 'com.ifx.davex.toolbar.menus' is invalid): com.ifx.davex.perspective.action2
+
+!ENTRY org.eclipse.ui.workbench 2 0 2015-10-29 13:36:18.875
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2015-10-29 13:36:18.875
+!MESSAGE Conflict for 'AUTOGEN:::com.ifx.davex.toolbar.common.actionsets/com.ifx.davex.library.download.action':
+HandlerActivation(commandId=AUTOGEN:::com.ifx.davex.toolbar.common.actionsets/com.ifx.davex.library.download.action,
+	handler=ActionDelegateHandlerProxy(null,com.ifx.davex.perspective.toolbar.actions.LibraryUnInstallActionDelegate),
+	expression=AndExpression(ActionSetExpression(com.ifx.davex.toolbar.common.actionsets,org.eclipse.ui.internal.WorkbenchWindow@16b3939),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@16b3939)),sourcePriority=16640)
+HandlerActivation(commandId=AUTOGEN:::com.ifx.davex.toolbar.common.actionsets/com.ifx.davex.library.download.action,
+	handler=ActionDelegateHandlerProxy(null,com.ifx.davex.perspective.toolbar.actions.LibraryUpdateActionDelegate),
+	expression=AndExpression(ActionSetExpression(com.ifx.davex.toolbar.common.actionsets,org.eclipse.ui.internal.WorkbenchWindow@16b3939),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@16b3939)),sourcePriority=16640)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2015-10-29 13:36:18.875
+!MESSAGE Conflict for 'org.eclipse.debug.ui.commands.DebugLast':
+HandlerActivation(commandId=org.eclipse.debug.ui.commands.DebugLast,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.debug.internal.ui.actions.DebugLastAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.debug.ui.launchActionSet,org.eclipse.ui.internal.WorkbenchWindow@16b3939),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@16b3939)),sourcePriority=16640)
+HandlerActivation(commandId=org.eclipse.debug.ui.commands.DebugLast,
+	handler=ActionDelegateHandlerProxy(null,com.dave.activeproject.ui.actions.ActiveProjDebugLastAction),
+	expression=AndExpression(ActionSetExpression(com.ifx.ide.activeProject.build,org.eclipse.ui.internal.WorkbenchWindow@16b3939),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@16b3939)),sourcePriority=16640)
+
+!ENTRY org.eclipse.ui.workbench 2 0 2015-10-29 13:36:21.230
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2015-10-29 13:36:21.230
+!MESSAGE Conflict for 'org.eclipse.cdt.debug.ui.localCShortcut.run':
+HandlerActivation(commandId=org.eclipse.cdt.debug.ui.localCShortcut.run,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@27147d,
+	expression=,sourcePriority=0)
+HandlerActivation(commandId=org.eclipse.cdt.debug.ui.localCShortcut.run,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@1b248c8,
+	expression=,sourcePriority=0)
+
+!ENTRY org.eclipse.ui.workbench 2 0 2015-10-29 13:36:21.233
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2015-10-29 13:36:21.233
+!MESSAGE Conflict for 'org.eclipse.cdt.debug.ui.localCShortcut.debug':
+HandlerActivation(commandId=org.eclipse.cdt.debug.ui.localCShortcut.debug,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@119719f,
+	expression=,sourcePriority=0)
+HandlerActivation(commandId=org.eclipse.cdt.debug.ui.localCShortcut.debug,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@1728992,
+	expression=,sourcePriority=0)
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.104
+!MESSAGE FileNotFoundException:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC1300/CCU/CCUST001_Example1_XMC13.xml
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC1300/CCU/CCUST001_Example1_XMC13.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.117
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC1300/CCU/CCUST001_Example1_XMC13.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.177
+!MESSAGE FileNotFoundException:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4200/DMA003_Example1_XMC42.xml
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4200/DMA003_Example1_XMC42.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.186
+!MESSAGE FileNotFoundException:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4200/DMA002_Example1_XMC42.xml
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4200/DMA002_Example1_XMC42.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.191
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4200/DMA003_Example1_XMC42.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.196
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4200/DMA002_Example1_XMC42.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.333
+!MESSAGE FileNotFoundException:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4400/DMA002_Example1_XMC44.xml
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4400/DMA002_Example1_XMC44.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.339
+!MESSAGE FileNotFoundException:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4400/DMA003_Example1_XMC44.xml
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4400/DMA003_Example1_XMC44.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.347
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4400/DMA002_Example1_XMC44.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.353
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4400/DMA003_Example1_XMC44.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.466
+!MESSAGE FileNotFoundException:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA002_Example1.xml
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA002_Example1.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.473
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA002_Example1.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.479
+!MESSAGE FileNotFoundException:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA003_Example1.xml
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA003_Example1.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.486
+!MESSAGE FileNotFoundException:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA002_Example2.xml
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA002_Example2.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.492
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA003_Example1.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.503
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA002_Example2.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.714
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC1300/CCU/CCUST001_Example1_XMC13.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.718
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4200/DMA002_Example1_XMC42.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.721
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4200/DMA003_Example1_XMC42.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.724
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4400/DMA002_Example1_XMC44.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.727
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4400/DMA003_Example1_XMC44.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.730
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA002_Example1.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.733
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA002_Example2.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.737
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA003_Example1.xml
