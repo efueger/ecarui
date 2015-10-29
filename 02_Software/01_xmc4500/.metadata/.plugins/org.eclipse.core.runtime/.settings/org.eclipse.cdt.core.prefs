@@ -1,2 +1,10 @@
 eclipse.preferences.version=1
 environment/workspace=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<environment append\="true" appendContributed\="true">\r\n<variable delimiter\=";" name\="DEVICE_FILE_LOCATION" operation\="append" value\="C\:\\DAVE-3.1.10\\eclipse\\plugins\\com.dave.mbs.xmc4000_1.0.56.201405141340\\etc"/>\r\n<variable delimiter\=";" name\="ARM_GCC_HOME" operation\="append" value\="C\:\\DAVE-3.1.10\\ARM-GCC"/>\r\n</environment>\r\n
+environment/workspace/ARM_GCC_HOME/delimiter=;
+environment/workspace/ARM_GCC_HOME/operation=append
+environment/workspace/ARM_GCC_HOME/value=C\:\\DAVE-3.1.10\\ARM-GCC
+environment/workspace/DEVICE_FILE_LOCATION/delimiter=;
+environment/workspace/DEVICE_FILE_LOCATION/operation=append
+environment/workspace/DEVICE_FILE_LOCATION/value=C\:\\DAVE-3.1.10\\eclipse\\plugins\\com.dave.mbs.xmc4000_1.0.56.201405141340\\etc
+environment/workspace/append=true
+environment/workspace/appendContributed=true
