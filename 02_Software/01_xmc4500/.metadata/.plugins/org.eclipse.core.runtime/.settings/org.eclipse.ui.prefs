@@ -1,0 +1,5 @@
+activeproject.background=255,255,255
+com.ifx.librarymanager.davesites=<?xml version\="1.0" encoding\="utf-8"?><Pref version\="1.0"><Lib uri\="http\://dave.infineon.com/Libraries/DAVEApps/DAVEAppsQuickFix/v3.1/" provider\="Infineon Technologies AG" enabled\="No"/><Lib uri\="http\://dave.infineon.com/Libraries/DAVEApps/DAVEAppsQuickFix/v3.1/" provider\="Infineon Technologies AG" enabled\="No"/><Lib uri\="http\://dave.infineon.com/Libraries/DAVEApps/DAVEAppsQuickFix/v3.1/" provider\="Infineon Technologies AG" enabled\="No"/><Lib uri\="http\://dave.infineon.com/Libraries/DAVEApps/DAVEAppsQuickFix/v3.1/" provider\="Infineon Technologies AG" enabled\="No"/><Lib uri\="http\://dave.infineon.com/Libraries/DAVEApps/DAVEAppsQuickFix/v3.1/" provider\="Infineon Technologies AG" enabled\="No"/><Lib uri\="http\://dave.infineon.com/Libraries/Examples/XMC4000/" provider\="Infineon Technologies AG" enabled\="Yes"/><Lib uri\="http\://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/" provider\="Infineon Technologies AG" enabled\="Yes"/></Pref>
+com.ifx.librarymanager.libstore=C\:\\Users\\nicsi\\Infineon\\D3LibraryStore_3.1.10
+eclipse.preferences.version=1
+showIntro=false

@@ -1,0 +1,1550 @@
+!SESSION 2015-10-29 13:34:20.958 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.registry 2 0 2015-10-29 13:34:28.155
+!MESSAGE The extensions and extension-points from the bundle "gnu.io.rxtx.source" are ignored. The bundle is not marked as singleton. 
+
+!ENTRY org.eclipse.ui 4 4 2015-10-29 13:36:17.461
+!MESSAGE Plug-in 'com.ifx.davex.perspective' contributed an invalid Menu Extension (Path: 'com.ifx.davex.toolbar.menus' is invalid): com.ifx.davex.perspective.action2
+
+!ENTRY org.eclipse.ui.workbench 2 0 2015-10-29 13:36:18.875
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2015-10-29 13:36:18.875
+!MESSAGE Conflict for 'AUTOGEN:::com.ifx.davex.toolbar.common.actionsets/com.ifx.davex.library.download.action':
+HandlerActivation(commandId=AUTOGEN:::com.ifx.davex.toolbar.common.actionsets/com.ifx.davex.library.download.action,
+	handler=ActionDelegateHandlerProxy(null,com.ifx.davex.perspective.toolbar.actions.LibraryUnInstallActionDelegate),
+	expression=AndExpression(ActionSetExpression(com.ifx.davex.toolbar.common.actionsets,org.eclipse.ui.internal.WorkbenchWindow@16b3939),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@16b3939)),sourcePriority=16640)
+HandlerActivation(commandId=AUTOGEN:::com.ifx.davex.toolbar.common.actionsets/com.ifx.davex.library.download.action,
+	handler=ActionDelegateHandlerProxy(null,com.ifx.davex.perspective.toolbar.actions.LibraryUpdateActionDelegate),
+	expression=AndExpression(ActionSetExpression(com.ifx.davex.toolbar.common.actionsets,org.eclipse.ui.internal.WorkbenchWindow@16b3939),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@16b3939)),sourcePriority=16640)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2015-10-29 13:36:18.875
+!MESSAGE Conflict for 'org.eclipse.debug.ui.commands.DebugLast':
+HandlerActivation(commandId=org.eclipse.debug.ui.commands.DebugLast,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.debug.internal.ui.actions.DebugLastAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.debug.ui.launchActionSet,org.eclipse.ui.internal.WorkbenchWindow@16b3939),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@16b3939)),sourcePriority=16640)
+HandlerActivation(commandId=org.eclipse.debug.ui.commands.DebugLast,
+	handler=ActionDelegateHandlerProxy(null,com.dave.activeproject.ui.actions.ActiveProjDebugLastAction),
+	expression=AndExpression(ActionSetExpression(com.ifx.ide.activeProject.build,org.eclipse.ui.internal.WorkbenchWindow@16b3939),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@16b3939)),sourcePriority=16640)
+
+!ENTRY org.eclipse.ui.workbench 2 0 2015-10-29 13:36:21.230
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2015-10-29 13:36:21.230
+!MESSAGE Conflict for 'org.eclipse.cdt.debug.ui.localCShortcut.run':
+HandlerActivation(commandId=org.eclipse.cdt.debug.ui.localCShortcut.run,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@27147d,
+	expression=,sourcePriority=0)
+HandlerActivation(commandId=org.eclipse.cdt.debug.ui.localCShortcut.run,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@1b248c8,
+	expression=,sourcePriority=0)
+
+!ENTRY org.eclipse.ui.workbench 2 0 2015-10-29 13:36:21.233
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2015-10-29 13:36:21.233
+!MESSAGE Conflict for 'org.eclipse.cdt.debug.ui.localCShortcut.debug':
+HandlerActivation(commandId=org.eclipse.cdt.debug.ui.localCShortcut.debug,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@119719f,
+	expression=,sourcePriority=0)
+HandlerActivation(commandId=org.eclipse.cdt.debug.ui.localCShortcut.debug,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@1728992,
+	expression=,sourcePriority=0)
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.104
+!MESSAGE FileNotFoundException:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC1300/CCU/CCUST001_Example1_XMC13.xml
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC1300/CCU/CCUST001_Example1_XMC13.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.117
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC1300/CCU/CCUST001_Example1_XMC13.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.177
+!MESSAGE FileNotFoundException:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4200/DMA003_Example1_XMC42.xml
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4200/DMA003_Example1_XMC42.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.186
+!MESSAGE FileNotFoundException:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4200/DMA002_Example1_XMC42.xml
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4200/DMA002_Example1_XMC42.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.191
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4200/DMA003_Example1_XMC42.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.196
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4200/DMA002_Example1_XMC42.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.333
+!MESSAGE FileNotFoundException:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4400/DMA002_Example1_XMC44.xml
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4400/DMA002_Example1_XMC44.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.339
+!MESSAGE FileNotFoundException:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4400/DMA003_Example1_XMC44.xml
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4400/DMA003_Example1_XMC44.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.347
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4400/DMA002_Example1_XMC44.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.353
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4400/DMA003_Example1_XMC44.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.466
+!MESSAGE FileNotFoundException:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA002_Example1.xml
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA002_Example1.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.473
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA002_Example1.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.479
+!MESSAGE FileNotFoundException:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA003_Example1.xml
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA003_Example1.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.486
+!MESSAGE FileNotFoundException:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA002_Example2.xml
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA002_Example2.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.492
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA003_Example1.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.503
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA002_Example2.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.714
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC1300/CCU/CCUST001_Example1_XMC13.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.718
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4200/DMA002_Example1_XMC42.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.721
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4200/DMA003_Example1_XMC42.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.724
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4400/DMA002_Example1_XMC44.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.727
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4400/DMA003_Example1_XMC44.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.730
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA002_Example1.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.733
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA002_Example2.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:36:25.737
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA003_Example1.xml
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:05.444
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/BMI01//BMI01.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:05.531
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_HMI_Library_001/00Version//DISP_7SEG01_100.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:05.537
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_HMI_Library_001/00Version//COL01_100.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:05.544
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Lighting_Library_001/WHITELAMP01//WHITELAMP01.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:05.741
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Lighting_Library_001/LIGHTINGSYS01//LIGHTINGSYS01.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:05.755
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/ADCGROUP001//ADCGROUP001.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:05.849
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Lighting_Library_001/COLORLAMP01//COLORLAMP01.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:05.865
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/CCU8Global//CCU8Global.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:05.890
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_HMI_Library_001/00Version//COLA01_100.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:05.895
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Lighting_Library_001/DALICG01//DALICG01.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:06.047
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_HMI_Library_001/LEDTSGLOBAL//LEDTSGLOBAL.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:06.194
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/CLK001//CLK001.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:06.277
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Lighting_Library_001/DALICG02//DALICG02.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:06.320
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/EBU001//EBU001.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:07.803
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_HMI_Library_001/00Version//DOTMATRIX01_100.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:07.924
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/SPI003//SPI003.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:07.967
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Lighting_Library_001/00Version//BCCUCH01_106.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:08.116
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/NVIC002//NVIC002.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:08.127
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_HMI_Library_001/00Version//DOTMATRIX01_104.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:08.195
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Lighting_Library_001/00Version//BCCUDIM01_104.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:08.216
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_HMI_Library_001/00Version//GUIKB001_104.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:08.236
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Lighting_Library_001/00Version//COLORLAMP01_104.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:08.305
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Lighting_Library_001/00Version//BCCUGLOBAL_108.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:08.338
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/ADC001//ADC001.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:08.588
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Lighting_Library_001/00Version//COLORLAMP01_106.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:08.640
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/CCU4Global//CCU4Global.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:08.654
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_HMI_Library_001/DOTMATRIX01//DOTMATRIX01.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:08.945
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/RTOS001//RTOS001.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:10.062
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_HMI_Library_001/00Version//GUIMS001_104.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:10.515
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_HMI_Library_001/00Version//LEDMATRIX01_100.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:10.591
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/EBU_Global//EBU_Global.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:10.613
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Lighting_Library_001/00Version//DMX512RD01_100.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:10.987
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/MANC01//MANC01.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:11.122
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Lighting_Library_001/00Version//DALICG01_108.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:11.271
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Lighting_Library_001/00Version//WHITELAMP01_106.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:11.335
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/ADC002//ADC002.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:11.447
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_HMI_Library_001/00Version//LEDTSGLOBAL_100.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:11.551
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/ADC003//ADC003.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:11.890
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/ADCGLOB001//ADCGLOB001.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:12.246
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Lighting_Library_001/00Version//WHITELAMP01_104.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:12.601
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_HMI_Library_001/00Version//GUILC001_1012.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:12.718
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_HMI_Library_001/00Version//LEDTSGLOBAL_104.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:12.960
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/MATHLIBS//MATHLIBS.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:13.679
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/ADCSYNC001//ADCSYNC001.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:14.217
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_HMI_Library_001/00Version//GUISL001_1018.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:14.244
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//ADC001_1016.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:14.256
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/NVIC_DMA001//NVIC_DMA001.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:14.384
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//ADC001_1020.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:15.387
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//ADC002_1016.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:16.115
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//ADC002_1026.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:16.762
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//ADC004_102.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:16.809
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//ADC003_1020.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:16.820
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//ADC003_1012.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:17.721
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//ADCCH001_1018.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:18.354
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//ADCCMP001_1012.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:19.126
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//ADCGROUP001_1020.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:19.356
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//ADCGLOB001_1018.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:19.408
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//ADCGLOB001_1026.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:20.018
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//ADCGROUP001_1026.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:21.015
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//ADCSYNC001_1022.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:21.397
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//AES001_1014.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:21.624
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//ANACMP01_108.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:21.638
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//ANACMPGLOB01_108.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:22.259
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//BMI01_104.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:23.236
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//BMI01_106.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:23.696
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//CAN001_108.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:23.842
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//CANGLOBAL_108.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:23.948
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//CAN002_106.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:24.604
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//CAP001_1016.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:25.474
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//CCU4GLOBAL_1016.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:25.963
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//CCU4GLOBAL_1020.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:26.038
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//CCU4ST01_104.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:26.206
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//CCU8GLOBAL_1014.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:26.903
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//CCU8GLOBAL_1018.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:27.787
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//CCU8ST01_104.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:28.203
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//CCUST01_104.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:28.329
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//CLK001_1032.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:28.603
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//CLK001_1042.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:29.238
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//CLK002_106.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:30.049
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//CNT001_1020.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:30.476
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//CRC001_1012.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:30.598
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//CRC002_106.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:30.855
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//CRC003_108.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:31.503
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//CRC004_108.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:32.330
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//CRC005_106.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:32.746
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//CRC006_106.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:32.831
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//CRC007_108.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:33.163
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//DACWG001_1012.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:33.841
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//DACWG002_1010.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:34.707
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//DACWG003_1012.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:34.942
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//DAVESUPPORT_1042.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:35.004
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//DACWG005_108.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:35.251
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//DBG001_1010.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:36.389
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//DBG002_1016.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:37.454
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//DSDGLOBAL_104.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:37.678
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//DMA002_1020.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:37.699
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//DMA003_1014.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:38.068
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//DMA004_104.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:38.794
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//DSDIF003_104.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:39.754
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//EBU001_100.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:39.848
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//EBUGLOBAL_100.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:40.568
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//ERU001_1014.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:40.787
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//ERU002_108.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:41.228
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//ETH001_1020.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:42.010
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//ETH002_1016.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:43.081
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//FATFS002_1022.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:43.150
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//EXCP001_1016.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:44.196
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//FATFS003_100.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:44.337
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//FATFS004_1030.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:44.704
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//ETH004_1016.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:45.321
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//FATFS005_100.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:45.633
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//FEE001_100.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:46.426
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//FLASH001_104.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:46.601
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//FLASH002_106.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:47.520
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//GEN002_108.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:47.776
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//GMM001_1012.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:49.058
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//I2C001_1026.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:49.113
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//I2C002_108.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:49.743
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//IO001_1012.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:50.039
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//IO002_1022.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:51.397
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//IO002_1028.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:51.409
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//IO003_108.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:52.002
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//IO004_1018.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:52.440
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//LIBS_1022.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:53.161
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//FLASH003_106.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:53.546
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//LMM001_104.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:53.580
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//LVAL001_106.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:54.209
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//LVAL002_104.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:54.875
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//MANC01_104.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:55.669
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//MATH01_100.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:55.912
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//MATHLIBS_100.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:55.941
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//MATHLIBS_104.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:57.350
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//MODBUS001_102.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:57.444
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//NVIC001_1010.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:57.883
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//NVIC002_1018.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:58.211
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//NVIC002_1022.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:58.238
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//NVIC002_1024.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:47:59.630
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//NVIC002_1026.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:00.560
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//NVIC_SCU001_1014.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:00.597
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//NVIC_DMA001_1016.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:00.616
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//NVIC_SR001_104.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:00.935
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//NVIC_DMA001_1018.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:01.884
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//NVIC_SR101_102.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:02.800
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//NVIC_SR201_102.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:02.865
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//PLATRESET01_102.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:03.022
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//POW001_1010.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:03.162
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//PRNG01_102.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:04.412
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//PWMSP001_1032.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:05.258
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//PWMSP002_1032.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:05.424
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//PWMSP003_106.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:05.679
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//RTOS001_1022.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:06.074
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//RTOS001_1024.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:06.648
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//SDMMC002_102.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:07.683
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//SDMMC003_1020.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:07.806
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//SDMMC004_106.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:08.069
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//SDMMC005_1012.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:08.341
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//SLTHA001_1020.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:08.888
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//SLTHA002_100.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:09.911
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//SLTHA003_1010.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:10.474
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//SPI001_1020.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:10.551
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//SPI002_1012.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:10.683
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//SPI003_106.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:11.101
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//SUSCFG01_102.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:12.144
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//SYSTM001_1014.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:12.727
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//SYSTM002_100.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:12.762
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//TMPS001_104.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:13.177
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//UART001_1022.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:13.400
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//UART002_1010.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:14.402
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//USBBL001_108.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:15.040
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//USBCDC001_1010.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:15.117
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//USBCDCH001_104.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:15.535
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//USBCORE001_1014.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:15.773
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//USBHID001_104.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:17.411
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//USBMSD001_100.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:17.555
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//USBMS001_106.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:17.843
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//USBMSD001_104.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:18.023
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//USBVC001_1012.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:19.766
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//USBVC001_1016.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:19.944
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//USBVCH001_104.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:20.274
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//WDT001_1016.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:21.393
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//USBLD001_1014.zip
+
+!ENTRY LIB_MGR 1 0 2015-10-29 13:48:24.424
+!MESSAGE Downloaded file : http://dave.infineon.com/Libraries/DAVEApps/XMC4500/v3.1.10/DAVEApps_Library_001/00Version//WEBSERVER001_1010.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:24.801
+!MESSAGE Downloading App Libraries: 3
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:24.833
+!MESSAGE Library 'DAVEApps_Lighting_Library_001(1.0.18)' has 14 zip files.
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:24.838
+!MESSAGE Extracting: BCCUDIM01_104.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:24.843
+!MESSAGE Extracting: COLORLAMP01_104.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:24.848
+!MESSAGE Extracting: BCCUCH01_106.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:24.852
+!MESSAGE Extracting: COLORLAMP01.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:24.855
+!MESSAGE Extracting: BCCUGLOBAL_108.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:25.705
+!MESSAGE Extracting: COLORLAMP01_106.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:25.749
+!MESSAGE Extracting: DALICG01_108.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:25.756
+!MESSAGE Extracting: DALICG01.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:25.795
+!MESSAGE Extracting: DALICG02.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:26.052
+!MESSAGE Extracting: DMX512RD01_100.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:26.488
+!MESSAGE Extracting: LIGHTINGSYS01.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:26.513
+!MESSAGE Extracting: WHITELAMP01.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:26.887
+!MESSAGE Extracting: WHITELAMP01_104.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:26.893
+!MESSAGE Extracting: WHITELAMP01_106.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:28.470
+!MESSAGE Library 'DAVEApps_Library_001(1.0.66)' has 154 zip files.
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:28.475
+!MESSAGE Extracting: ADC001.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:28.478
+!MESSAGE Extracting: ADC002.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:28.481
+!MESSAGE Extracting: ADC002_1016.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:28.484
+!MESSAGE Extracting: ADC001_1016.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:28.487
+!MESSAGE Extracting: ADC001_1020.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:29.252
+!MESSAGE Extracting: ADC002_1026.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:29.459
+!MESSAGE Extracting: ADC003.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:29.492
+!MESSAGE Extracting: ADC003_1012.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:29.500
+!MESSAGE Extracting: ADC003_1020.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:29.505
+!MESSAGE Extracting: ADC004_102.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:30.279
+!MESSAGE Extracting: ADCCH001_1018.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:30.539
+!MESSAGE Extracting: ADCCMP001_1012.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:30.579
+!MESSAGE Extracting: ADCGLOB001.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:30.585
+!MESSAGE Extracting: ADCGLOB001_1018.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:30.809
+!MESSAGE Extracting: ADCGLOB001_1026.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:31.523
+!MESSAGE Extracting: ADCGROUP001.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:32.055
+!MESSAGE Extracting: ADCGROUP001_1020.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:32.104
+!MESSAGE Extracting: ADCGROUP001_1026.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:32.167
+!MESSAGE Extracting: ADCSYNC001.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:32.201
+!MESSAGE Extracting: ADCSYNC001_1022.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:32.256
+!MESSAGE Extracting: AES001_1014.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:32.550
+!MESSAGE Extracting: ANACMP01_108.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:32.744
+!MESSAGE Extracting: ANACMPGLOB01_108.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:32.906
+!MESSAGE Extracting: BMI01.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:32.950
+!MESSAGE Extracting: BMI01_104.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:33.247
+!MESSAGE Extracting: BMI01_106.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:33.368
+!MESSAGE Extracting: CAN001_108.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:33.549
+!MESSAGE Extracting: CAN002_106.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:33.554
+!MESSAGE Extracting: CANGLOBAL_108.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:33.581
+!MESSAGE Extracting: CAP001_1016.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:33.829
+!MESSAGE Extracting: CCU4Global.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:33.833
+!MESSAGE Extracting: CCU4GLOBAL_1016.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:34.095
+!MESSAGE Extracting: CCU4GLOBAL_1020.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:34.165
+!MESSAGE Extracting: CCU4ST01_104.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:34.489
+!MESSAGE Extracting: CCU8Global.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:34.497
+!MESSAGE Extracting: CCU8GLOBAL_1014.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:34.509
+!MESSAGE Extracting: CCU8GLOBAL_1018.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:34.567
+!MESSAGE Extracting: CCU8ST01_104.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:34.932
+!MESSAGE Extracting: CCUST01_104.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:34.943
+!MESSAGE Extracting: CLK001.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:35.368
+!MESSAGE Extracting: CLK001_1032.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:35.432
+!MESSAGE Extracting: CLK001_1042.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:35.534
+!MESSAGE Extracting: CLK002_106.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:35.617
+!MESSAGE Extracting: CNT001_1020.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:35.816
+!MESSAGE Extracting: CRC001_1012.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:36.082
+!MESSAGE Extracting: CRC002_106.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:36.174
+!MESSAGE Extracting: CRC003_108.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:36.374
+!MESSAGE Extracting: CRC004_108.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:36.453
+!MESSAGE Extracting: CRC005_106.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:36.457
+!MESSAGE Extracting: CRC006_106.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:36.543
+!MESSAGE Extracting: CRC007_108.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:36.792
+!MESSAGE Extracting: DACWG001_1012.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:36.976
+!MESSAGE Extracting: DACWG002_1010.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:37.021
+!MESSAGE Extracting: DACWG003_1012.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:37.054
+!MESSAGE Extracting: DACWG005_108.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:37.090
+!MESSAGE Extracting: DAVESUPPORT_1042.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:37.476
+!MESSAGE Extracting: DBG001_1010.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:37.496
+!MESSAGE Extracting: DBG002_1016.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:37.888
+!MESSAGE Extracting: DMA002_1020.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:38.021
+!MESSAGE Extracting: DMA003_1014.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:38.099
+!MESSAGE Extracting: DMA004_104.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:38.144
+!MESSAGE Extracting: DSDGLOBAL_104.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:38.368
+!MESSAGE Extracting: DSDIF003_104.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:39.972
+!MESSAGE Extracting: EBU001.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:40.068
+!MESSAGE Extracting: EBU001_100.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:40.548
+!MESSAGE Extracting: EBUGLOBAL_100.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:40.839
+!MESSAGE Extracting: EBU_Global.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:41.137
+!MESSAGE Extracting: ERU001_1014.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:42.222
+!MESSAGE Extracting: ERU002_108.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:43.938
+!MESSAGE Extracting: ETH001_1020.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:44.323
+!MESSAGE Extracting: ETH002_1016.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:44.392
+!MESSAGE Extracting: ETH004_1016.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:44.820
+!MESSAGE Extracting: EXCP001_1016.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:46.216
+!MESSAGE Extracting: FATFS002_1022.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:46.438
+!MESSAGE Extracting: FATFS003_100.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:46.524
+!MESSAGE Extracting: FATFS004_1030.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:46.670
+!MESSAGE Extracting: FATFS005_100.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:46.676
+!MESSAGE Extracting: FEE001_100.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:47.410
+!MESSAGE Extracting: FLASH001_104.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:47.575
+!MESSAGE Extracting: FLASH002_106.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:47.586
+!MESSAGE Extracting: FLASH003_106.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:48.230
+!MESSAGE Extracting: GEN002_108.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:48.426
+!MESSAGE Extracting: GMM001_1012.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:48.687
+!MESSAGE Extracting: I2C001_1026.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:48.724
+!MESSAGE Extracting: I2C002_108.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:48.858
+!MESSAGE Extracting: IO001_1012.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:48.915
+!MESSAGE Extracting: IO002_1022.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:49.262
+!MESSAGE Extracting: IO002_1028.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:49.330
+!MESSAGE Extracting: IO003_108.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:49.364
+!MESSAGE Extracting: IO004_1018.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:50.060
+!MESSAGE Extracting: LIBS_1022.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:50.749
+!MESSAGE Extracting: LMM001_104.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:51.388
+!MESSAGE Extracting: LVAL001_106.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:51.698
+!MESSAGE Extracting: LVAL002_104.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:51.988
+!MESSAGE Extracting: MANC01.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:52.491
+!MESSAGE Extracting: MANC01_104.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:52.824
+!MESSAGE Extracting: MATH01_100.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:53.117
+!MESSAGE Extracting: MATHLIBS.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:53.537
+!MESSAGE Extracting: MATHLIBS_100.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:55.831
+!MESSAGE Extracting: MATHLIBS_104.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:55.852
+!MESSAGE Extracting: MODBUS001_102.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:56.595
+!MESSAGE Extracting: NVIC001_1010.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:57.460
+!MESSAGE Extracting: NVIC002.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:57.501
+!MESSAGE Extracting: NVIC002_1018.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:58.483
+!MESSAGE Extracting: NVIC002_1022.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:58.551
+!MESSAGE Extracting: NVIC002_1024.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:58.620
+!MESSAGE Extracting: NVIC002_1026.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:58.883
+!MESSAGE Extracting: NVIC_DMA001.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:48:59.911
+!MESSAGE Extracting: NVIC_DMA001_1016.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:01.685
+!MESSAGE Extracting: NVIC_DMA001_1018.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:03.450
+!MESSAGE Extracting: NVIC_SCU001_1014.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:04.167
+!MESSAGE Extracting: NVIC_SR001_104.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:05.783
+!MESSAGE Extracting: NVIC_SR101_102.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:06.105
+!MESSAGE Extracting: NVIC_SR201_102.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:08.063
+!MESSAGE Extracting: PLATRESET01_102.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:08.134
+!MESSAGE Extracting: POW001_1010.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:08.216
+!MESSAGE Extracting: PRNG01_102.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:08.556
+!MESSAGE Extracting: PWMSP001_1032.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:08.787
+!MESSAGE Extracting: PWMSP002_1032.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:08.861
+!MESSAGE Extracting: PWMSP003_106.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:09.024
+!MESSAGE Extracting: RTOS001.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:09.192
+!MESSAGE Extracting: RTOS001_1022.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:09.431
+!MESSAGE Extracting: RTOS001_1024.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:09.615
+!MESSAGE Extracting: SDMMC002_102.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:10.012
+!MESSAGE Extracting: SDMMC003_1020.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:13.420
+!MESSAGE Extracting: SDMMC004_106.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:13.691
+!MESSAGE Extracting: SDMMC005_1012.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:14.225
+!MESSAGE Extracting: SLTHA001_1020.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:17.230
+!MESSAGE Extracting: SLTHA002_100.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:17.248
+!MESSAGE Extracting: SLTHA003_1010.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:17.667
+!MESSAGE Extracting: SPI001_1020.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:18.360
+!MESSAGE Extracting: SPI002_1012.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:19.730
+!MESSAGE Extracting: SPI003.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:20.104
+!MESSAGE Extracting: SPI003_106.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:20.306
+!MESSAGE Extracting: SUSCFG01_102.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:20.374
+!MESSAGE Extracting: SYSTM001_1014.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:21.589
+!MESSAGE Extracting: SYSTM002_100.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:21.953
+!MESSAGE Extracting: TMPS001_104.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:22.098
+!MESSAGE Extracting: UART001_1022.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:22.452
+!MESSAGE Extracting: UART002_1010.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:22.670
+!MESSAGE Extracting: USBBL001_108.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:23.817
+!MESSAGE Extracting: USBCDC001_1010.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:24.572
+!MESSAGE Extracting: USBCDCH001_104.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:24.657
+!MESSAGE Extracting: USBCORE001_1014.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:24.748
+!MESSAGE Extracting: USBHID001_104.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:25.158
+!MESSAGE Extracting: USBLD001_1014.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:26.100
+!MESSAGE Extracting: USBMS001_106.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:26.380
+!MESSAGE Extracting: USBMSD001_100.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:26.595
+!MESSAGE Extracting: USBMSD001_104.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:26.972
+!MESSAGE Extracting: USBVC001_1012.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:27.290
+!MESSAGE Extracting: USBVC001_1016.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:27.398
+!MESSAGE Extracting: USBVCH001_104.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:27.428
+!MESSAGE Extracting: WDT001_1016.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:27.508
+!MESSAGE Extracting: WEBSERVER001_1010.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:42.247
+!MESSAGE Library 'DAVEApps_HMI_Library_001(1.0.6)' has 14 zip files.
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:42.251
+!MESSAGE Extracting: COL01_100.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:42.254
+!MESSAGE Extracting: DOTMATRIX01_100.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:42.258
+!MESSAGE Extracting: DOTMATRIX01.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:42.261
+!MESSAGE Extracting: DISP_7SEG01_100.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:42.265
+!MESSAGE Extracting: COLA01_100.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:43.520
+!MESSAGE Extracting: DOTMATRIX01_104.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:43.575
+!MESSAGE Extracting: GUIKB001_104.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:43.624
+!MESSAGE Extracting: GUILC001_1012.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:43.627
+!MESSAGE Extracting: GUIMS001_104.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:43.630
+!MESSAGE Extracting: GUISL001_1018.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:43.891
+!MESSAGE Extracting: LEDMATRIX01_100.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:44.682
+!MESSAGE Extracting: LEDTSGLOBAL.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:44.773
+!MESSAGE Extracting: LEDTSGLOBAL_100.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:45.105
+!MESSAGE Extracting: LEDTSGLOBAL_104.zip
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:49:49.162
+!MESSAGE Time taken for the App Library Index file updation in msec is: 98
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:50:01.628
+!MESSAGE Time taken for the Software Id Index file updation in msec is: 12462
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:50:02.297
+!MESSAGE Time taken for the Apps_toc.xml file updation in msec is: 665
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:50:02.300
+!MESSAGE Time taken for the Apps installationin msec: 97, in seconds: 0
+
+!ENTRY APPS_DOWNLOAD 1 0 2015-10-29 13:50:02.305
+!MESSAGE Total time taken for the Apps Library installation/update in msec is: 97500, in seconds: 97
+!SESSION 2015-10-29 13:53:17.235 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2015-10-29 13:53:23.097
+!MESSAGE Plug-in 'com.ifx.davex.perspective' contributed an invalid Menu Extension (Path: 'com.ifx.davex.toolbar.menus' is invalid): com.ifx.davex.perspective.action2
+
+!ENTRY org.eclipse.ui.workbench 2 0 2015-10-29 13:53:23.368
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2015-10-29 13:53:23.368
+!MESSAGE Conflict for 'AUTOGEN:::com.ifx.davex.toolbar.common.actionsets/com.ifx.davex.library.download.action':
+HandlerActivation(commandId=AUTOGEN:::com.ifx.davex.toolbar.common.actionsets/com.ifx.davex.library.download.action,
+	handler=ActionDelegateHandlerProxy(null,com.ifx.davex.perspective.toolbar.actions.LibraryUnInstallActionDelegate),
+	expression=AndExpression(ActionSetExpression(com.ifx.davex.toolbar.common.actionsets,org.eclipse.ui.internal.WorkbenchWindow@1e8e144),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1e8e144)),sourcePriority=16640)
+HandlerActivation(commandId=AUTOGEN:::com.ifx.davex.toolbar.common.actionsets/com.ifx.davex.library.download.action,
+	handler=ActionDelegateHandlerProxy(null,com.ifx.davex.perspective.toolbar.actions.LibraryUpdateActionDelegate),
+	expression=AndExpression(ActionSetExpression(com.ifx.davex.toolbar.common.actionsets,org.eclipse.ui.internal.WorkbenchWindow@1e8e144),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1e8e144)),sourcePriority=16640)
+
+!ENTRY org.eclipse.ui.workbench 2 0 2015-10-29 13:53:24.205
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2015-10-29 13:53:24.205
+!MESSAGE Conflict for 'org.eclipse.cdt.debug.ui.localCShortcut.run':
+HandlerActivation(commandId=org.eclipse.cdt.debug.ui.localCShortcut.run,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@93b59,
+	expression=,sourcePriority=0)
+HandlerActivation(commandId=org.eclipse.cdt.debug.ui.localCShortcut.run,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@176ccc,
+	expression=,sourcePriority=0)
+
+!ENTRY org.eclipse.ui.workbench 2 0 2015-10-29 13:53:24.209
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2015-10-29 13:53:24.209
+!MESSAGE Conflict for 'org.eclipse.cdt.debug.ui.localCShortcut.debug':
+HandlerActivation(commandId=org.eclipse.cdt.debug.ui.localCShortcut.debug,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@154ec5,
+	expression=,sourcePriority=0)
+HandlerActivation(commandId=org.eclipse.cdt.debug.ui.localCShortcut.debug,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@e67c12,
+	expression=,sourcePriority=0)
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:53:27.458
+!MESSAGE FileNotFoundException:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC1300/CCU/CCUST001_Example1_XMC13.xml
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC1300/CCU/CCUST001_Example1_XMC13.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:53:27.478
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC1300/CCU/CCUST001_Example1_XMC13.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:53:27.539
+!MESSAGE FileNotFoundException:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4200/DMA002_Example1_XMC42.xml
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4200/DMA002_Example1_XMC42.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:53:27.544
+!MESSAGE FileNotFoundException:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4200/DMA003_Example1_XMC42.xml
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4200/DMA003_Example1_XMC42.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:53:27.548
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4200/DMA002_Example1_XMC42.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:53:27.556
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4200/DMA003_Example1_XMC42.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:53:27.693
+!MESSAGE FileNotFoundException:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4400/DMA002_Example1_XMC44.xml
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4400/DMA002_Example1_XMC44.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:53:27.701
+!MESSAGE FileNotFoundException:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4400/DMA003_Example1_XMC44.xml
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4400/DMA003_Example1_XMC44.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:53:27.709
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4400/DMA002_Example1_XMC44.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:53:27.716
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4400/DMA003_Example1_XMC44.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:53:27.828
+!MESSAGE FileNotFoundException:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA002_Example2.xml
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA002_Example2.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:53:27.834
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA002_Example2.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:53:27.840
+!MESSAGE FileNotFoundException:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA002_Example1.xml
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA002_Example1.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:53:27.847
+!MESSAGE FileNotFoundException:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA003_Example1.xml
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA003_Example1.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:53:27.854
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA002_Example1.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:53:27.862
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA003_Example1.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:53:28.070
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC1300/CCU/CCUST001_Example1_XMC13.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:53:28.074
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4200/DMA002_Example1_XMC42.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:53:28.077
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4200/DMA003_Example1_XMC42.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:53:28.080
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4400/DMA002_Example1_XMC44.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:53:28.084
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4400/DMA003_Example1_XMC44.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:53:28.087
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA002_Example1.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:53:28.090
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA002_Example2.xml
+
+!ENTRY LIB_MGR 4 0 2015-10-29 13:53:28.093
+!MESSAGE ConnectionException:
+:http://dave.infineon.com/Libraries/Examples/XMC4000/XMC4500/Service_01/DMA/DMA003_Example1.xml
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-10-29 13:58:53.078
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-10-29 13:58:53.078
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:58:53.078
+!MESSAGE Software being installed: Eclipse Git Team Provider - Task focused interface 4.1.0.201509280440-r (org.eclipse.egit.mylyn.feature.group 4.1.0.201509280440-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:58:53.078
+!MESSAGE Missing requirement: Git Team Provider UI 4.1.0.201509280440-r (org.eclipse.egit.ui 4.1.0.201509280440-r) requires 'bundle org.eclipse.team.core [3.6.100,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-10-29 13:58:53.078
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:58:53.078
+!MESSAGE From: Eclipse Git Team Provider - Task focused interface 4.1.0.201509280440-r (org.eclipse.egit.mylyn.feature.group 4.1.0.201509280440-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:58:53.078
+!MESSAGE To: org.eclipse.egit.mylyn.ui [4.1.0.201509280440-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-10-29 13:58:53.078
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:58:53.078
+!MESSAGE From: EGit Mylyn UI 4.1.0.201509280440-r (org.eclipse.egit.mylyn.ui 4.1.0.201509280440-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:58:53.078
+!MESSAGE To: package org.eclipse.egit.ui [4.1.0,4.2.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-10-29 13:58:53.124
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-10-29 13:58:53.124
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:58:53.124
+!MESSAGE Software being installed: Eclipse Git Team Provider - Task focused interface 4.1.0.201509280440-r (org.eclipse.egit.mylyn.feature.group 4.1.0.201509280440-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:58:53.124
+!MESSAGE Missing requirement: Git Team Provider UI 4.1.0.201509280440-r (org.eclipse.egit.ui 4.1.0.201509280440-r) requires 'bundle org.eclipse.team.core [3.6.100,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-10-29 13:58:53.124
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:58:53.124
+!MESSAGE From: Eclipse Git Team Provider - Task focused interface 4.1.0.201509280440-r (org.eclipse.egit.mylyn.feature.group 4.1.0.201509280440-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:58:53.124
+!MESSAGE To: org.eclipse.egit.mylyn.ui [4.1.0.201509280440-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-10-29 13:58:53.124
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:58:53.124
+!MESSAGE From: EGit Mylyn UI 4.1.0.201509280440-r (org.eclipse.egit.mylyn.ui 4.1.0.201509280440-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:58:53.124
+!MESSAGE To: package org.eclipse.egit.ui [4.1.0,4.2.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-10-29 13:59:08.126
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-10-29 13:59:08.126
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:59:08.126
+!MESSAGE Software being installed: Eclipse Git Team Provider 4.1.0.201509280440-r (org.eclipse.egit.feature.group 4.1.0.201509280440-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:59:08.126
+!MESSAGE Missing requirement: Git Team Provider UI 4.1.0.201509280440-r (org.eclipse.egit.ui 4.1.0.201509280440-r) requires 'bundle org.eclipse.team.core [3.6.100,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-10-29 13:59:08.126
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:59:08.126
+!MESSAGE From: Eclipse Git Team Provider 4.1.0.201509280440-r (org.eclipse.egit.feature.group 4.1.0.201509280440-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:59:08.126
+!MESSAGE To: org.eclipse.egit.ui [4.1.0.201509280440-r]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-10-29 13:59:08.130
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-10-29 13:59:08.130
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:59:08.130
+!MESSAGE Software being installed: Eclipse Git Team Provider 4.1.0.201509280440-r (org.eclipse.egit.feature.group 4.1.0.201509280440-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:59:08.130
+!MESSAGE Missing requirement: Git Team Provider UI 4.1.0.201509280440-r (org.eclipse.egit.ui 4.1.0.201509280440-r) requires 'bundle org.eclipse.team.core [3.6.100,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-10-29 13:59:08.130
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:59:08.130
+!MESSAGE From: Eclipse Git Team Provider 4.1.0.201509280440-r (org.eclipse.egit.feature.group 4.1.0.201509280440-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:59:08.130
+!MESSAGE To: org.eclipse.egit.ui [4.1.0.201509280440-r]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-10-29 13:59:17.950
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-10-29 13:59:17.950
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:59:17.950
+!MESSAGE Software being installed: Eclipse Git Team Provider - Task focused interface 4.1.0.201509280440-r (org.eclipse.egit.mylyn.feature.group 4.1.0.201509280440-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:59:17.950
+!MESSAGE Missing requirement: Git Team Provider UI 4.1.0.201509280440-r (org.eclipse.egit.ui 4.1.0.201509280440-r) requires 'bundle org.eclipse.team.core [3.6.100,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-10-29 13:59:17.950
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:59:17.950
+!MESSAGE From: Eclipse Git Team Provider 4.1.0.201509280440-r (org.eclipse.egit.feature.group 4.1.0.201509280440-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:59:17.950
+!MESSAGE To: org.eclipse.egit.ui [4.1.0.201509280440-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-10-29 13:59:17.950
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:59:17.950
+!MESSAGE From: Eclipse Git Team Provider - Task focused interface 4.1.0.201509280440-r (org.eclipse.egit.mylyn.feature.group 4.1.0.201509280440-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:59:17.950
+!MESSAGE To: org.eclipse.egit.feature.group 4.1.0
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-10-29 13:59:17.955
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-10-29 13:59:17.955
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:59:17.955
+!MESSAGE Software being installed: Eclipse Git Team Provider - Task focused interface 4.1.0.201509280440-r (org.eclipse.egit.mylyn.feature.group 4.1.0.201509280440-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:59:17.955
+!MESSAGE Missing requirement: Git Team Provider UI 4.1.0.201509280440-r (org.eclipse.egit.ui 4.1.0.201509280440-r) requires 'bundle org.eclipse.team.core [3.6.100,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-10-29 13:59:17.955
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:59:17.955
+!MESSAGE From: Eclipse Git Team Provider 4.1.0.201509280440-r (org.eclipse.egit.feature.group 4.1.0.201509280440-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:59:17.955
+!MESSAGE To: org.eclipse.egit.ui [4.1.0.201509280440-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-10-29 13:59:17.955
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:59:17.955
+!MESSAGE From: Eclipse Git Team Provider - Task focused interface 4.1.0.201509280440-r (org.eclipse.egit.mylyn.feature.group 4.1.0.201509280440-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:59:17.955
+!MESSAGE To: org.eclipse.egit.feature.group 4.1.0
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-10-29 13:59:24.127
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-10-29 13:59:24.127
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:59:24.127
+!MESSAGE Software being installed: Eclipse Git Team Provider 4.1.0.201509280440-r (org.eclipse.egit.feature.group 4.1.0.201509280440-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:59:24.127
+!MESSAGE Missing requirement: Git Team Provider UI 4.1.0.201509280440-r (org.eclipse.egit.ui 4.1.0.201509280440-r) requires 'bundle org.eclipse.team.core [3.6.100,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-10-29 13:59:24.127
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:59:24.127
+!MESSAGE From: Eclipse Git Team Provider 4.1.0.201509280440-r (org.eclipse.egit.feature.group 4.1.0.201509280440-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:59:24.127
+!MESSAGE To: org.eclipse.egit.ui [4.1.0.201509280440-r]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-10-29 13:59:24.131
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-10-29 13:59:24.131
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:59:24.131
+!MESSAGE Software being installed: Eclipse Git Team Provider 4.1.0.201509280440-r (org.eclipse.egit.feature.group 4.1.0.201509280440-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:59:24.131
+!MESSAGE Missing requirement: Git Team Provider UI 4.1.0.201509280440-r (org.eclipse.egit.ui 4.1.0.201509280440-r) requires 'bundle org.eclipse.team.core [3.6.100,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-10-29 13:59:24.131
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:59:24.131
+!MESSAGE From: Eclipse Git Team Provider 4.1.0.201509280440-r (org.eclipse.egit.feature.group 4.1.0.201509280440-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-10-29 13:59:24.131
+!MESSAGE To: org.eclipse.egit.ui [4.1.0.201509280440-r]
