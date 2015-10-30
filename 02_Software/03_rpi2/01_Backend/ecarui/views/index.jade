@@ -1,5 +1,55 @@
 extends layout
 
+block scripts
+	//-script(src="https://maps.googleapis.com/maps/api/js?key=" + key + "&callback=initMap" async defer)
+	script(src="https://www.google.com/jsapi")
+	script(src="/javascripts/raphael-2.1.4.min.js")
+	script(src="/javascripts/justgage-1.1.0.min.js")
+	script(src="/javascripts/index.js")
 block content
-  h1= title
-  p Welcome to #{title}
+	div.dashWrap
+		//- left col
+		div.side2
+			div.row
+				div
+					div.bg Platzhalter
+			div.row
+				div
+					div.bg Audio
+		//- middle col
+		div.mid
+			div.row
+				//- Speed indicator
+				div.w50#speed
+					div.bg Drehzahl
+				//- Sensor Data
+				div.w50#sensors
+					div.bg Sensor Daten
+			div.row
+				//- Embedded Map
+				div.mid#map
+					div.bg Karte
+				//- Current Navigation Command or Question
+				div.side#navcmd
+					div.bg Turn_Left_Onto_...
+		//- right col
+		div.side2
+			div.row.r70
+				//- Sensor Data
+				div#data
+					div.row.r70#dataChartWrapper
+						div#dataChart
+					div.row.r30#dataUpload
+						div.row.r70
+							i.material-icons.small file_upload
+						div.row.r30
+							span.small Daten hochladen
+					div.bg Data
+			div.row.r30
+				//- Wifi Indicator
+				div.plate
+					div.row.r70
+						i.material-icons wifi_lock
+					div.row.r30
+						span.big eduroam
+					div.bg Network

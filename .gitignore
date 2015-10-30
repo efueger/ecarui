@@ -2,3 +2,4 @@
 *.version
 *.prefs
 02_Software/01_xmc4500/.metadata/
+02_Software/03_rpi2/01_Backend/ecarui/lt_mapsapikey
