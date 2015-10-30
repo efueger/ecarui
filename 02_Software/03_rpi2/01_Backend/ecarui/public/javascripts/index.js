@@ -54,7 +54,7 @@ function drawDataChart() {
 	
 	var chart = new google.visualization.LineChart(document.getElementById('dataChart'));
 	
-	$("#data").on('click', function() {
+	$("#dataChartWrapper").on('click', function() {
 		$("#dataChartWrapper").toggleClass("r70").toggleClass("r100");
 		$("#dataUpload").toggle();
 		if (dataChartOptions.height === '70%') {
